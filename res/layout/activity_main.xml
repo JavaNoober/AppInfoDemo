@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/btn_all"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ALL_APP"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/btn_sys"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SYSTEM_APP"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/btn_third"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="THIRD_APP"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/btn_sd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SDCARD_APP"
+        android:textSize="17sp" />
+
+    <ListView
+        android:id="@+id/lv_info"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp" >
+    </ListView>
+
+</LinearLayout>
